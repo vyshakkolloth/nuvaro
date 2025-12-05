@@ -10,6 +10,7 @@ import QueriesSection from "@/components/QueriesSection";
 import BlogSection from "@/components/BlogSection";
 import Footer from "@/components/Footer";
 import PartnersSection from '@/components/PartnersSection';
+import ScreenRestriction from "@/components/ScreenRestriction";
 
 export const metadata: Metadata = {
   title: "Nuvaro Home | Engineering Precision, Framing Tomorrow",
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
+      <ScreenRestriction />
       <HeroSection />
       <AboutSection />
       <SolutionSection />
