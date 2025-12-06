@@ -35,10 +35,10 @@ const SignatureCollection = () => {
     );
 
     const doors = [
-        { id: 1, src: "/aluminiumDoor.jpg", title: "Sliding System", icon: "/icon/aluminium.png" },
+        { id: 1, src: "/aluminiumDoor.jpg", title: "Sliding System", icon: "/icon/Aluminium.png" },
         { id: 2, src: "/casementDoor.jpg", title: "Casement System", icon: "/icon/casement.png" },
         { id: 3, src: "/faradesDoor.jpg", title: "Facades", icon: "/icon/facads.png" },
-        { id: 4, src: "/foldingDoor.jpg", title: "Folding door", icon: "/icon/fold.png" },
+        { id: 4, src: "/foldingDoor.jpg", title: "Folding door", icon: "/icon/Fold.png" },
         { id: 5, src: "/interLockDoor.jpg", title: "Interlock System", icon: "/icon/interLock.png" },
         { id: 6, src: "/slidingDoor.jpg", title: "Sliding System", icon: "/icon/sliding.png" },
     ];
