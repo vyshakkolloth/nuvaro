@@ -36,6 +36,7 @@ const QueriesSection = () => {
 
     return (
         <section className='relative w-full py-16 md:py-24 bg-white overflow-hidden'>
+            {/* Background Image */}
             <div className='absolute inset-0 w-full h-full z-0 pointer-events-none'>
                 <Image
                     src='/AboutStruture.png'
@@ -48,6 +49,7 @@ const QueriesSection = () => {
 
             <div className='relative z-10 container mx-auto max-w-[1560px] px-6 md:px-[104px]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24'>
+                    {/* Left Column */}
                     <div className='flex flex-col items-start'>
                         <div className='mb-6'>
                             <span className='inline-block px-5 py-2 rounded-full border border-gray-300 text-xs font-bold uppercase tracking-wider text-slate-700 bg-white/80 backdrop-blur-sm'>
@@ -59,7 +61,7 @@ const QueriesSection = () => {
                             Quick and clear answers to your key questions
                         </h2>
 
-                        <div className='bg-slate-50/80 backdrop-blur-sm p-0 rounded-xl mt-auto'>
+                        <div className=' backdrop-blur-sm p-0 rounded-xl mt-auto'>
                             <h3 className='text-xl md:text-xl font-semibold text-slate-900 mb-2'>
                                 You have different questions?
                             </h3>
@@ -73,6 +75,7 @@ const QueriesSection = () => {
                         </div>
                     </div>
 
+                    {/* Right Column - Accordion */}
                     <div className='flex flex-col space-y-4'>
                         {faqs.map((faq, index) => (
                             <div
@@ -84,7 +87,7 @@ const QueriesSection = () => {
                             >
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className='w-full flex items-center justify-between p-6 md:p-8 text-left'
+                                    className='w-full flex items-center justify-between p-6 md:p-6 text-left'
                                 >
                                     <span className='text-lg md:text-xl font-semibold text-slate-900 pr-8'>
                                         {faq.question}

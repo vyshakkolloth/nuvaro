@@ -32,7 +32,7 @@ const Footer = () => {
 
             <div className="relative z-10 container mx-auto px-6 lg:px-12 pt-16 lg:pt-24 pb-8">
 
-                <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-700/50 pb-16 mb-16 relative">
+                <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-700/50 pb-16 mb-16 relative ">
                     <div className="w-full md:w-1/2 flex flex-col items-start gap-8 mb-10 md:mb-0">
                         <h2 className="text-4xl lg:text-5xl font-semibold leading-tight text-white mb-4">
                             Ready to Transform <br /> Your Space?
@@ -46,7 +46,7 @@ const Footer = () => {
                         </Link>
                     </div>
 
-                    <div className="w-full md:w-1/2 flex flex-end relative h-[250px] md:h-[350px] lg:h-[400px]">
+                    <div className="w-full md:w-1/2 aspect-2/1 flex flex-end relative h-[250px] md:h-[350px] lg:h-[249.2px]">
                         <Image
                             src={DoorImage}
                             alt="Sliding Door Frame"

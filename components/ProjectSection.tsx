@@ -78,10 +78,10 @@ const ProjectSection = () => {
     }, [currentIndex]);
 
     return (
-        <section ref={containerRef} className="py-[70px] max-w-[1440px] mx-auto bg-white overflow-hidden">
-            <div className="container px-[101px] mx-auto md:px-8 ">
+        <section ref={containerRef} className="py-[70px] max-w-[1560px] w-full mx-auto bg-white overflow-hidden">
+            <div className="container px-6 md:px-[104px] mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
-                    <div className="max-w-2xl">
+                    <div className="max-w-2xl ">
                         <div className="inline-block px-4 py-1.5 rounded-full border border-gray-300 text-xs font-medium tracking-wider mb-6">
                             ✦ OUR PROJECTS
                         </div>

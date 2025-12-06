@@ -46,7 +46,7 @@ const ProjectCarousel = ({ projects }: { projects: Project[] }) => {
     }, [currentIndex]);
 
     return (
-        <section ref={containerRef} className="py-[70px] max-w-[1556px] mx-auto bg-white overflow-hidden">
+        <section ref={containerRef} className="border-2 border-amber-200 max-w-[1556px] mx-auto bg-white overflow-hidden">
             <div className="container px-[20px] md:px-[101px] mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
                     <div className="max-w-2xl">

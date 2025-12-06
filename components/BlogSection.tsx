@@ -40,8 +40,8 @@ const BlogSection = () => {
                                 • BLOGS
                             </span>
                         </div>
-                        <h2 className='text-3xl md:text-5xl font-semibold text-slate-900 leading-[1.1] max-w-2xl'>
-                            Take A look At Our Latest Blog & Articles.
+                        <h2 className='text-3xl md:text-[36px] font-semibold text-slate-900 leading-[1.1] max-w-2xl'>
+                            Take A look At Our Latest <br /> Blog & Articles.
                         </h2>
                     </div>
 
@@ -52,7 +52,7 @@ const BlogSection = () => {
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12'>
                     <div className='flex flex-col group cursor-pointer'>
-                        <div className='relative w-full h-[300px] md:h-[400px] lg:h-[480px] rounded-3xl overflow-hidden mb-6 aspect-[1.7335/1]'>
+                        <div className='relative w-full h-[300px] md:h-[349px] lg:h-[349px] rounded-3xl overflow-hidden mb-6 aspect-[1.7335/1]'>
                             <Image
                                 src={featuredPost.image}
                                 alt={featuredPost.title}
